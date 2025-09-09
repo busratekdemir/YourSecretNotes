@@ -3,6 +3,12 @@
 Parola tabanlı şifreleme ile çalışan basit bir **gizli not** uygulaması.  
 Başlık–Not–Anahtar akışıyla **şifrele → kaydet** ve **çöz → görüntüle**.
 
+## Ekran Görüntüleri
+<p align="center">
+  <img src="ss1.png" width="420" alt="Ana ekran" />
+  <img src="ss2.png" width="420" alt="Kayıt sonrası" />
+  <img src="ss3.png" width="420" alt="Şifre çözme" />
+</p>
 ## Özellikler
 - **PBKDF2HMAC + Fernet** ile güvenli şifreleme
 - Kayıt formatı: `title::salt_b64::token` (her not tek satır)
